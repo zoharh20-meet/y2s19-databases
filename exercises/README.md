@@ -1,4 +1,4 @@
-# Y2 2018 Summer: Databases Lab
+# Y2 2019 Summer: Databases Lab
 
 Welcome to the databases lab! Please read all the instructions so you don't
 get lost halfway through, but definitely feel free to ask for help if you
