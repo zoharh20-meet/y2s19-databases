@@ -21,16 +21,11 @@ class Knowledge(Base):
 		rating = Column(Integer)
 
 		def __repr__(self):
-			 return ("If you want to learn about {},"
-			 		 "you should look at the Wikipedia article called {}. "
+			return ("If you want to learn about {},"
+			 		"you should look at the Wikipedia article called {}. "
 					"We gave this article a rating of {} out of 10!").format(self.topic, self.title, self.rating)
-		    return ("Title: {}\n"
-	               "Topic: {} \n"
-	               "Rating: {}").format(
-	                    self.title,
-	                    self.topic,
-	                    self.rating)
-
+		    
+		   		
 article1 = Knowledge(title = "King Crimson",  topic= "An Enslish rock-band" , rating= 10) 
 print(article1)
 
@@ -39,3 +34,5 @@ print(article2)
 
 article3 = Knowledge(title=  "Black Sbbath", topic= "Wow, Another English rock-band :|", rating= 8)
 print(article3)
+
+
